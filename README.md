@@ -10,6 +10,7 @@ I really wish to better understand modern computational biophysics tools and mak
 The goal is to write a complete toy suite in common lisp to perform molecular modeling, including
 
 * a `.pdb` parser & preprocessor
+* a simple force field
 * a 3d viewer
 * a geometry optimizer
 * a docking engine
