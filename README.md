@@ -15,7 +15,7 @@ The goal is to write a complete toy suite in common lisp to perform molecular mo
 * a docking engine
 * a classical molecular dynamics engine
 
-The task is huge, but at the same time, I want to keep each step simple. My main core idea is to rely on lennard-jones interactions. It will not be sufficiently physical to reproduce industry-standard results, but keeping a single and simple expression - let's say forcefield - throughout the project will make the transition from step to step smoother.
+The task is huge, but at the same time, I want to keep each step simple. My main core idea is to rely on simple interactions. It will not be sufficiently physical to reproduce industry-standard results, but keeping a simple expression - let's say forcefield - throughout the project will make the transition from step to step smoother.
 
 At the time I am writing this README file, I do not plan to overoptimize the pipeline but still, common sense is included. I will still try to be picky over the physics I provide and write a good amount of documentation.
 
