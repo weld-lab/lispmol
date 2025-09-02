@@ -2,4 +2,7 @@
   :description "A toy molecular modeling pipeline written in Common Lisp"
   :author "Erwan Le Doeuff (weld)"
   :license "MIT License"
-  :components ((:file "package")))
+  :serial t
+  :components ((:file "package")
+	       (:module "pdbparser"
+		:components ((:file "package")))))
