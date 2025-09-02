@@ -1,7 +1,5 @@
 # lispmol.topology
 
-# lispmol.topology
-
 A package for building and manipulating molecular topologies. It organizes atoms into residues, residues into molecules, and provides the connectivity information needed for force field assignment and simulation.
 
 
