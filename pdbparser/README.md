@@ -3,17 +3,17 @@
 A minimal `.pdb` (Protein Data Bank file) parser for lispmol.
 
 
-# Purpose
+## Purpose
 
 Work in progress.
 
 
-# How it works?
+## How it works?
 
 Work in progress.
 
 
-# Cite
+## Citation
 
 If you use or refer to this module, please cite:
 
