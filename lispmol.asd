@@ -4,5 +4,7 @@
   :license "MIT License"
   :serial t
   :components ((:file "package")
+	       (:module "topology"
+		:components ((:file "package")))
 	       (:module "pdbparser"
 		:components ((:file "package")))))
