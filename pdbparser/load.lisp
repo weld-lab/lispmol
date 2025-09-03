@@ -2,12 +2,12 @@
 
 
 (defgeneric load-pdb (source)
-  (:documentation "Parse PDB ATOM/HETATM records from SOURCE and return a list of @atom."))
+  (:documentation "Parse .pdb ATOM records from SOURCE and return a list of @atom."))
 
 
 (defmethod load-pdb ((source stream))
-  "not yet implemented"
-  nil)
+  (declare (ignore source))
+  (error "Not yet implemented."))
 
 (defmethod load-pdb ((source pathname))
   (with-open-file (in source :direction :input)
