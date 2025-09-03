@@ -2,6 +2,7 @@
 
 
 (defclass @record ()
+  ()
   (:documentation "Abstract base class for any record"))
 
 
