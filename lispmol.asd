@@ -3,9 +3,11 @@
   :author "Erwan Le Doeuff (weld)"
   :license "MIT License"
   :serial t
+  :depends-on ("cl-servante")
   :components ((:file "package")
 	       (:module "topology"
 		:components ((:file "package")))
 	       (:module "pdbparser"
 		:components ((:file "package")
-			     (:file "record")))))
+			     (:file "record")
+			     (:file "load")))))
