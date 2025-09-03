@@ -13,6 +13,11 @@ Work in progress.
 Work in progress.
 
 
+## References
+
+- [`.pdb` format](pdb-format-v3.3.pdf)
+
+
 ## Citation
 
 If you use or refer to this module, please cite:
