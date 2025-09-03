@@ -1,3 +1,4 @@
 (defpackage #:lispmol.pdbparser
   (:nicknames #:pdbparser)
-  (:use #:cl))
+  (:use #:cl)
+  (:export #:@atom))
