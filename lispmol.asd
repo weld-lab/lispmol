@@ -10,4 +10,5 @@
 	       (:module "pdbparser"
 		:components ((:file "package")
 			     (:file "record")
+			     (:file "parse")
 			     (:file "load")))))
