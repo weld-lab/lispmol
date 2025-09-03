@@ -1,6 +1,6 @@
 (in-package #:lispmol.pdbparser)
 
 
-(defun load ()
+(defun load-pdb ()
   "Not yet implemented"
   nil)
