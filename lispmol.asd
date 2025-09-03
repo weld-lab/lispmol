@@ -7,4 +7,5 @@
 	       (:module "topology"
 		:components ((:file "package")))
 	       (:module "pdbparser"
-		:components ((:file "package")))))
+		:components ((:file "package")
+			     (:file "record")))))
