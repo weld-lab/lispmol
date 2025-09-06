@@ -4,7 +4,6 @@
 
 (defmethod parse-atom-line ((line string))
   (flet
-
       ((safe-char (c)
          (if (or (null c) (char= c #\Space)) #\Space c))
        
