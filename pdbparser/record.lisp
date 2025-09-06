@@ -57,22 +57,22 @@
 		  :type string)
    (@atom-charge :initarg :@atom-charge
 		 :accessor @atom-charge
-		 :type (or null integer)))
+		 :type string))
   (:documentation
    "Representation of an ATOM record in a PDB file.
-Slots mirror the official PDB format (v3.3):
-- @atom-serial     : Atom serial number (columns 7–11).
-- @atom-name       : Atom name (columns 13–16).
-- @atom-altloc     : Alternate location indicator (column 17).
-- @atom-resname    : Residue name (columns 18–20).
-- @atom-chainid    : Chain identifier (column 22).
-- @atom-resseq     : Residue sequence number (columns 23–26).
-- @atom-icode      : Insertion code (column 27).
-- @atom-x/y/z      : Cartesian coordinates in Å (columns 31–54).
-- @atom-occupancy  : Occupancy (columns 55–60).
-- @atom-tempfactor : Temperature factor / B-factor (columns 61–66).
-- @atom-element    : Element symbol, right-justified (columns 77–78).
-- @atom-charge     : Atom charge, e.g. \"2+\" or \"1-\" (columns 79–80).
+Slots mirror the official PDB format (v3.3), indices 0-based:
+- @atom-serial     : Atom serial number (columns 6–10).
+- @atom-name       : Atom name (columns 12–15).
+- @atom-altloc     : Alternate location indicator (column 16).
+- @atom-resname    : Residue name (columns 17–19).
+- @atom-chainid    : Chain identifier (column 21).
+- @atom-resseq     : Residue sequence number (columns 22–25).
+- @atom-icode      : Insertion code (column 26).
+- @atom-x/y/z      : Cartesian coordinates in Å (columns 30–53).
+- @atom-occupancy  : Occupancy (columns 54–59).
+- @atom-tempfactor : Temperature factor / B-factor (columns 60–65).
+- @atom-element    : Element symbol, right-justified (columns 76–77).
+- @atom-charge     : Atom charge, e.g. \"2+\" or \"1-\" (columns 78–79).
 
 This class is intended for parsing and representing raw PDB input.
 Higher-level chemistry concepts (residues, molecules, topology)
