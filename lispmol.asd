@@ -13,7 +13,10 @@
 		:components ((:file "package")
 			     (:file "record")
 			     (:file "parse")
-			     (:file "load")))))
+			     (:file "load")))
+	       (:module "preprocessor"
+		:components ((:file "package")
+			     (:file "pdb-topology")))))
 
 
 (asdf:defsystem "lispmol/tests"
