@@ -7,7 +7,8 @@
   :in-order-to ((test-op (test-op "lispmol/tests")))
   :components ((:file "package")
 	       (:module "topology"
-		:components ((:file "package")))
+		:components ((:file "package")
+			     (:file "topology")))
 	       (:module "pdbparser"
 		:components ((:file "package")
 			     (:file "record")
