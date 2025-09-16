@@ -7,7 +7,11 @@
 	   #:@atom-x
 	   #:@atom-element
 	   #:@atom-charge
+	   #:@atom-chainid
+	   #:@atom-icode
+	   #:@atom-resseq
 	   
 	   #:@pdb
+	   #:@pdb-atoms
 	   #:load-pdb
 	   #:parse-atom-line))
