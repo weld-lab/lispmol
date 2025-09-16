@@ -16,6 +16,7 @@
     (is (= (pdbparser:@atom-serial a) 4))
     (is (string= (pdbparser:@atom-resname a) "GLY"))
     (is (= (pdbparser:@atom-x a) 41.939))
+    (is (= (pdbparser:@atom-resseq a) -165))
     (is (string= (pdbparser:@atom-element a) "O"))
     (is (string= (pdbparser:@atom-charge a) ""))))
 
