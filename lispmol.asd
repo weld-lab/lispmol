@@ -16,12 +16,14 @@
 			     (:file "load")))
 	       (:module "preprocessor"
 		:components ((:file "package")
+			     (:file "group-by")
 			     (:file "pdb-topology")))))
 
 
 (asdf:defsystem "lispmol/tests"
   :depends-on ("lispmol" "fiveam")
   :components ((:file "tests/package")
-	       (:file "tests/pdbparser"))
+	       (:file "tests/pdbparser")
+	       (:file "tests/preprocessor"))
   :perform (test-op (o c)
              (uiop:symbol-call :fiveam :run! :lispmol-tests)))
