@@ -7,5 +7,6 @@
 	   #:angle
 	   #:dihedral
 	   #:residue
+	   #:residue-atoms
 	   #:molecule
 	   #:molecule-residues))
