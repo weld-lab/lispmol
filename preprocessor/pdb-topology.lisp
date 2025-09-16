@@ -8,8 +8,7 @@
 	 (push (make-instance 'topology:residue
 			      :residue-id (third key)
 			      :residue-name (first key)
-			      :residue-atoms (loop for @a in bucket
-						   collect (make-atom-from-record @a)))
+			      :residue-atoms (mapcar #'make-atom-from-record bucket))
 	       (topology:molecule-residues mol)))
      table)
     mol))
