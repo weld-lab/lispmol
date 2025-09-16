@@ -5,4 +5,5 @@
 
 (fiveam:def-suite :lispmol-tests)
 (fiveam:def-suite :lispmol-tests.pdbparser :in :lispmol-tests)
+(fiveam:def-suite :lispmol-tests.preprocessor :in :lispmol-tests)
 
