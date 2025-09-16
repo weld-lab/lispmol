@@ -2,9 +2,12 @@
   (:nicknames #:pdbparser)
   (:use #:cl #:cl-servante.string)
   (:export #:@atom
+	   #:@atom-name
 	   #:@atom-resname
 	   #:@atom-serial
 	   #:@atom-x
+	   #:@atom-y
+	   #:@atom-z
 	   #:@atom-element
 	   #:@atom-charge
 	   #:@atom-chainid
